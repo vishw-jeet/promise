@@ -30,7 +30,7 @@ let obj={
         Swal.fire({
             icon: 'success',
             title: res,
-            timer:2000,
+            timer:2000
 
     })})
     .catch((err)=>{
