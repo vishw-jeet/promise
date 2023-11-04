@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>promise</title>
+</head>
+
+<body class="body">
+  <!-- 
+    <div class="container mb-4 mt-4">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+        <div class="card">
+         <div class="card-body">
+          <form id="form">
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">password*</label>
+              <input type="password" id="password" class="form-control">
+            </div>
+            <div class="text-right">
+              <button class="btn btn-primary">Log in</button>
+            </div>
+          </form>
+         </div>
+        </div>
+        </div>
+      </div>
+    </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-4">
+        <form id="blogsForm">
+          <div class="card mb-4" id="blog">
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Title</label>
+                <input type="text" class="form-control" id="title">
+              </div>
+              <div class="form-group">
+                <label for="">Content</label>
+                <textarea class="form-control" id="content" rows="4"></textarea>
+              </div>
+              <div class="card-footer text-right">
+                <button class="btn btn-outline-primary" type="submit" id="submitbtn">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="blogCard">
+       <div class= "col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h2>Title</h2>
+        </div>
+        <div class="card-body">
+          p
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button class="btn btn-primary">Update</button>
+          <button class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.all.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/promice.js"></script>
+  <!-- <script src="./assets/js/promise1.js"></script> -->
+</body>
+
+</html>
