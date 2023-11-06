@@ -43,11 +43,11 @@ const firstRound=()=>{
                 setTimeout(() => {
                     let err=false
                     if(!err){
-                        resole(`candidate is selected comapasny`)
+                        resole(`candidate is selected comapany`)
                     }else{
                         reject(`candidate Is good in js but need work on langue`)
-                        reject(``)
-                    }
+                                            reject(``)
+}
                 },1000);
             })
         }        
